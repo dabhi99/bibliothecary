@@ -119,17 +119,17 @@ module Bibliothecary
         deps += map_dependencies(poetry_manifest['dependencies'], 'runtime')
         deps += map_dependencies(poetry_manifest['dev-dependencies'], 'develop')
 
-        # [tool.poetry.group.dev.dependencies]
+        # [tool.poetry.group.dev.dependencies] deps
         poetry_manifest = file_contents.fetch('tool', {}).fetch('poetry', {}).fetch('group', {}).fetch('dev', {})
         deps += map_dependencies(poetry_manifest['dependencies'], 'runtime')
         deps += map_dependencies(poetry_manifest['dev-dependencies'], 'develop')
 
-        # [tool.poetry.group.test.dependencies]
+        # [tool.poetry.group.test.dependencies] deps
         poetry_manifest = file_contents.fetch('tool', {}).fetch('poetry', {}).fetch('group', {}).fetch('test', {})
         deps += map_dependencies(poetry_manifest['dependencies'], 'runtime')
         deps += map_dependencies(poetry_manifest['dev-dependencies'], 'develop')
 
-        # [tool.poetry.group.typing.dependencies]
+        # [tool.poetry.group.typing.dependencies] deps
         poetry_manifest = file_contents.fetch('tool', {}).fetch('poetry', {}).fetch('group', {}).fetch('typing', {})
         deps += map_dependencies(poetry_manifest['dependencies'], 'runtime')
         deps += map_dependencies(poetry_manifest['dev-dependencies'], 'develop')

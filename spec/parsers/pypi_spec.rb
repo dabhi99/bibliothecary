@@ -287,7 +287,12 @@ git://what@::/:/:/
       dependencies: [
         { name: "python", requirement: "^3.7", type: "runtime" },
         { name: "django", requirement: "^3.0.7", type: "runtime" },
-        { name: "pytest", requirement: "^5.2", type: "develop" }
+        { name: "pytest", requirement: "^5.2", type: "develop" },
+        {:name=>"langchain", :requirement=>"*", :type=>"runtime"},
+        {:name=>"autodoc_pydantic", :requirement=>"^1.8.0", :type=>"runtime"},
+        {:name=>"ruff", :requirement=>"^0.1.5", :type=>"runtime"},
+        {:name=>"langchain-core", :requirement=>"*", :type=>"runtime"},
+        {:name=>"codespell", :requirement=>"^2.2.0", :type=>"runtime"}
       ],
       kind: 'manifest',
       success: true

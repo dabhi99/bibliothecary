@@ -11,6 +11,17 @@ django = "^3.0.7"
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 
+[tool.poetry.group.docs.dependencies]
+langchain = { path = "libs/langchain/", develop = true }
+autodoc_pydantic = "^1.8.0"
+
+[tool.poetry.group.lint.dependencies]
+ruff = "^0.1.5"
+langchain-core = { path = "libs/core/", develop = true }
+
+[tool.poetry.group.codespell.dependencies]
+codespell = "^2.2.0"
+
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
