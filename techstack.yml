@@ -1,12 +1,12 @@
 repo_name: dabhi99/bibliothecary
-report_id: 27bdbc55d44ce765488a64524ecb9546
+report_id: 99dc4cafe9eca33dab94925b5d5a995a
 version: 0.1
 repo_type: Public
-timestamp: '2024-03-18T12:31:47+00:00'
+timestamp: '2024-03-27T14:02:50+00:00'
 requested_by: AkBacancy
 provider: github
 branch: main
-detected_tools_count: 290
+detected_tools_count: 109
 tools:
 - name: ASP.NET
   description: An open source web framework for building modern web apps and services
@@ -62,18 +62,6 @@ tools:
   detection_source: spec/fixtures/pip-compile/requirements.txt
   last_updated_by: Tyrel Souza
   last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: Markdown
-  description: Text-to-HTML conversion tool/syntax for web writers, by John Gruber
-  website_url: http://daringfireball.net/projects/markdown/
-  open_source: true
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  image_url: https://img.stackshare.io/service/1147/markdown.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
 - name: Perl
   description: Highly capable, feature-rich programming language with over 26 years
     of development
@@ -88,32 +76,6 @@ tools:
   detection_source: spec/fixtures/META.yml
   last_updated_by: Andrew Nesbitt
   last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: Python
-  description: A clear and powerful object-oriented programming language, comparable
-    to Perl, Ruby, Scheme, or Java.
-  website_url: https://www.python.org
-  version: 3.7.3
-  open_source: true
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/environment.yml
-  detection_source: spec/fixtures/environment.yml
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2019-08-08 20:23:54.000000000 Z
-- name: R Language
-  description: A language and environment for statistical computing and graphics
-  website_url: http://www.r-project.org/
-  open_source: true
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  image_url: https://img.stackshare.io/service/1213/r-logo.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
     on simplicity and productivity
@@ -128,18 +90,17 @@ tools:
   detection_source: Repo Metadata
   last_updated_by: Tieg Zaharia
   last_updated_on: 2022-08-11 21:56:18.000000000 Z
-- name: Rust
-  description: A safe, concurrent, practical language
-  website_url: http://www.rust-lang.org/
-  open_source: true
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  image_url: https://img.stackshare.io/service/1070/v7txhrjp9pdqrkdtxxp0.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Cargo.toml
-  detection_source: spec/fixtures/Cargo.toml
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary
+  detection_source: Repo Metadata
 - name: Swift
   description: An innovative new programming language for Cocoa and Cocoa Touch.
   website_url: https://developer.apple.com/swift/
@@ -149,36 +110,37 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/versions.json
-  detection_source: spec/fixtures/versions.json
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/example.podspec
+  detection_source: spec/fixtures/example.podspec
   last_updated_by: Andrew Nesbitt
   last_updated_on: 2016-02-28 12:01:34.000000000 Z
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
     many different types of applications
   website_url: http://www.microsoft.com/net/
+  version: 4.7.2
   license: MIT
   open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/packages.config
-  detection_source: spec/fixtures/packages.config
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/example-dotnet-framework.csproj
+  detection_source: spec/fixtures/example-dotnet-framework.csproj
+  last_updated_by: Emmanu Varghese
+  last_updated_on: 2023-06-01 20:29:23.000000000 Z
 - name: ".NET Core"
   description: An Open Source, General-Purpose Development Platform Maintained by
     Microsoft and the .NET Community
   website_url: https://docs.microsoft.com/en-us/dotnet/core/
-  version: '2.1'
+  version: 2.2.0
   license: MIT
   open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/example-dotnet-core.csproj
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/packages.lock.json
   detection_source: spec/fixtures/example-dotnet-core.csproj
   last_updated_by: Emmanu Varghese
   last_updated_on: 2023-06-01 20:29:23.000000000 Z
@@ -225,6 +187,20 @@ tools:
   detection_source: spec/fixtures/multimanifest_dir/setup.py
   last_updated_by: Havoc Pennington
   last_updated_on: 2018-06-28 20:53:05.000000000 Z
+- name: Flask
+  description: A microframework for Python based on Werkzeug, Jinja 2 and good intentions
+  website_url: http://flask.pocoo.org/
+  version: '0.8'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img-dev.stackshare.io/service/1001/default_6d109315b60108628b7cd3e159b84645c31ef0e2.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/requirements.txt
+  detection_source: spec/fixtures/requirements.txt
+  last_updated_by: Andrew Nesbitt
+  last_updated_on: 2016-12-16 11:14:26.000000000 Z
 - name: Laravel
   description: A PHP Framework For Web Artisans
   website_url: http://laravel.com/
@@ -371,19 +347,6 @@ tools:
   detection_source: spec/fixtures/Gemfile
   last_updated_by: Emmanu Varghese
   last_updated_on: 2023-07-24 13:00:10.000000000 Z
-- name: SQLite
-  description: A software library that implements a self-contained, serverless, zero-configuration,
-    transactional SQL database engine
-  website_url: http://www.sqlite.org/
-  open_source: false
-  hosted_saas: true
-  category: Data Stores
-  sub_category: Databases
-  image_url: https://img.stackshare.io/service/1071/sqlite.jpg
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/conda_with_pip/environment.yml
-  detection_source: spec/fixtures/conda_with_pip/environment.yml
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2019-08-27 18:16:41.000000000 Z
 - name: Babel
   description: Use next generation JavaScript, today.
   website_url: http://babeljs.io/
@@ -423,6 +386,20 @@ tools:
   detection_source: ".circleci/config.yml"
   last_updated_by: Tieg Zaharia
   last_updated_on: 2021-04-16 17:26:01.000000000 Z
+- name: Cirrus CI
+  description: Make your development cycle fast, efficient, and secure
+  website_url: https://cirrus-ci.org/
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/21405/default_606db6f1b72bbb18cb2ac7ffea643b8f1fcc4981.jpg
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/go.sum
+  detection_source: spec/fixtures/go.mod
+  last_updated_by: Tieg Zaharia
+  last_updated_on: 2019-05-05 18:08:02.000000000 Z
 - name: CocoaLumberjack
   description: A fast &amp; simple, yet powerful &amp; flexible logging framework
     for Mac and iOS
@@ -525,6 +502,34 @@ tools:
   detection_source: spec/fixtures/build.gradle
   last_updated_by: Andrew Nesbitt
   last_updated_on: 2016-07-10 16:35:30.000000000 Z
+- name: Gunicorn
+  description: A Python WSGI HTTP Server for UNIX
+  website_url: http://gunicorn.org/
+  version: 0.14.2
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1091/gunicorn.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/requirements.txt
+  detection_source: spec/fixtures/requirements.txt
+  last_updated_by: Andrew Nesbitt
+  last_updated_on: 2016-02-28 12:01:34.000000000 Z
+- name: Istio
+  description: Open platform to connect, manage, and secure microservices, by Google,
+    IBM, and Lyft
+  website_url: https://istio.io/
+  version: 0.11.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/2018-package-lock/package-lock.json
+  detection_source: ".rubocop.yml"
+  last_updated_by: Andrew Nesbitt
+  last_updated_on: 2017-02-16 16:25:23.000000000 Z
 - name: JUnit
   description: A programmer-oriented testing framework for Java
   website_url: http://junit.org/
@@ -580,18 +585,6 @@ tools:
   detection_source: spec/fixtures/multimanifest_dir/pom.xml
   last_updated_by: Havoc Pennington
   last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: Ninject
-  description: The ninja of .net dependency injectors
-  website_url: http://www.ninject.org
-  open_source: true
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Game Development
-  image_url: https://img.stackshare.io/service/3173/default_85e419b9c60b158340e534d5006d949015ec16e4.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/packages.config
-  detection_source: spec/fixtures/packages.config
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
 - name: NuGet
   description: The package manager for .NET
   website_url: https://www.nuget.org/
@@ -643,18 +636,6 @@ tools:
   detection_source: spec/fixtures/Gemfile
   last_updated_by: Andrew Nesbitt
   last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: PyPI
-  description: A repository of software for the Python programming language
-  website_url: https://pypi.org/
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Hosted Package Repository
-  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/requirements/test.txt
-  detection_source: spec/fixtures/requirements/test.txt
-  last_updated_by: Dave Powers
-  last_updated_on: 2022-07-15 17:42:52.000000000 Z
 - name: Pylint
   description: Source-code, bug and quality checker for the Python programming language
   website_url: https://www.pylint.org/
@@ -717,10 +698,23 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/shard.yml
-  detection_source: spec/fixtures/shard.yml
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/requirements.txt
+  detection_source: spec/fixtures/requirements.txt
   last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
+  last_updated_on: 2016-02-28 12:01:34.000000000 Z
+- name: Sidekick
+  description: Free and open-source live application debugger
+  website_url: https://www.runsidekick.com/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/41188/default_cc687711a460e7d064c4cb710de7ad76259fea52.jpg
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/example.podspec
+  detection_source: spec/fixtures/example.podspec
+  last_updated_by: Dave Powers
+  last_updated_on: 2022-07-12 17:14:23.000000000 Z
 - name: TestNG
   description: A testing framework inspired from JUnit and NUnit
   website_url: http://testng.org/doc/
@@ -771,18 +765,6 @@ tools:
   detection_source: spec/fixtures/yarn-with-git-repo/package.json
   last_updated_by: John Bintz
   last_updated_on: 2020-09-04 20:05:39.000000000 Z
-- name: pip
-  description: A package installer for Python
-  website_url: https://pypi.org/project/pip/
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Front End Package Manager
-  image_url: https://img.stackshare.io/service/5559/-RIWgodF_400x400.jpg
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/conda_with_pip/environment.yml
-  detection_source: spec/fixtures/conda_with_pip/environment.yml
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2019-08-27 18:16:41.000000000 Z
 - name: pytest
   description: A full-featured Python testing tool to help you write better programs
   website_url: http://pytest.org/latest/
@@ -797,19 +779,18 @@ tools:
   detection_source: spec/fixtures/requirements-dev.txt
   last_updated_by: Dave Powers
   last_updated_on: 2022-07-15 17:42:52.000000000 Z
-- name: warp
-  description: Secure and simple terminal sharing
-  website_url: https://github.com/spolu/warp
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: localhost Tools
-  image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/example.cabal
-  detection_source: spec/fixtures/example.cabal
+- name: Lattice
+  description: Modern performance management software
+  website_url: https://latticehq.com/
+  open_source: false
+  hosted_saas: true
+  category: Collaboration
+  sub_category: Team Task Management
+  image_url: https://img.stackshare.io/service/6437/IvBB-iQH_400x400.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
+  detection_source: spec/fixtures/DESCRIPTION
   last_updated_by: Andrew Nesbitt
-  last_updated_on: 2018-01-15 17:34:44.000000000 Z
+  last_updated_on: 2016-04-28 17:27:57.000000000 Z
 - name: Stripe
   description: Payments for developers
   website_url: https://stripe.com
@@ -846,106 +827,172 @@ tools:
   detection_source: spec/fixtures/Podfile.lock
   last_updated_by: Andrew Nesbitt
   last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: LangChain
-  description: Build AI apps with LLMs through composability
-  website_url: https://github.com/hwchase17/langchain
+- name: Fogwing
+  description: Platform for Industry 4.0
+  website_url: https://www.fogwing.io/
+  version: 3.7.1
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/41165/default_476a3f705eeab5998bb5c9a9a907149ab50e1d74.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
+  detection_source: spec/fixtures/Podfile
+  last_updated_by: Dave Powers
+  last_updated_on: 2022-07-12 17:14:23.000000000 Z
+- name: NPM Trends
+  website_url: https://www.npmtrends.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/12294/empty-logo-square.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/2018-package-lock/package-lock.json
+  detection_source: spec/fixtures/2018-package-lock/package-lock.json
+  last_updated_by: Havoc Pennington
+  last_updated_on: 2018-12-03 21:29:55.000000000 Z
+- name: PodRoom
+  description: A chatroom platform for Podcast communities.
+  website_url: https://www.podroom.live
+  open_source: false
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Customer Community
+  image_url: https://img.stackshare.io/service/21118/default_9a7a00fb1b5d7592ccf97fa29f819c3ea64179da.jpg
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/glide.yaml
+  detection_source: spec/fixtures/glide.yaml
+  last_updated_by: Andrew Nesbitt
+  last_updated_on: 2016-02-28 12:01:34.000000000 Z
+- name: Pry
+  description: I am the best Ruby REPL.
+  website_url: http://pryrepl.org
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4982/75601495f263d568fc60f3de8577b6ab_normal.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/bibliothecary.gemspec
+  detection_source: bibliothecary.gemspec
+  last_updated_by: Andrew Nesbitt
+  last_updated_on: 2016-01-13 22:08:11.000000000 Z
+- name: Rake
+  description: A software task management and build automation tool
+  website_url: https://github.com/ruby/rake
+  license: MIT
   open_source: true
   hosted_saas: false
-  category: Communications
-  sub_category: Large Language Model Tools
-  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pyproject.toml
-  detection_source: spec/fixtures/pyproject.toml
-  last_updated_by: Akash
-  last_updated_on: 2023-12-07 16:49:56.000000000 Z
-- name: NumPy
-  description: Fundamental package for scientific computing with Python
-  website_url: http://www.numpy.org/
-  version: 1.16.4
+  category: Application Utilities
+  sub_category: Task Management
+  image_url: https://ucarecdn.com/79629173-de2d-4cdf-8509-6d1411b382e7/
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/bibliothecary.gemspec
+  detection_source: bibliothecary.gemspec
+  last_updated_by: Andrew Nesbitt
+  last_updated_on: 2016-01-13 22:08:11.000000000 Z
+- name: Requests
+  description: Elegant and simple HTTP library for Python
+  website_url: http://docs.python-requests.org/en/latest/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Transfer
+  image_url: https://img.stackshare.io/service/10242/default_10e3fd58c910dc0c4241bc273a7235a0aa4197dd.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/requirements.txt
+  detection_source: spec/fixtures/requirements.txt
+  last_updated_by: Andrew Nesbitt
+  last_updated_on: 2016-02-28 12:01:34.000000000 Z
+- name: SaaS Boilerplate by Apptension
+  description: Never waste time on building features every SaaS includes.
+  website_url: https://www.apptension.com/saas-boilerplate
+  version: 1.1.3
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/41174/default_0f6308cbf1fde80d1773f75508e1cc2993589163.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
+  detection_source: spec/fixtures/Podfile
+  last_updated_by: Andrew Nesbitt
+  last_updated_on: 2016-02-28 12:01:34.000000000 Z
+- name: Underscore
+  description: JavaScript's utility _ belt
+  website_url: http://underscorejs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/1150/underscore-js.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/versions.json
+  detection_source: spec/fixtures/versions.json
+  last_updated_by: Andrew Nesbitt
+  last_updated_on: 2016-02-28 12:01:34.000000000 Z
+- name: getnuvo
+  description: Software library to create powerful spreadsheet (csv, xlsx, xls) importer
+  website_url: https://getnuvo.com/
+  version: 2.2.1
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/41167/default_31c405a9dac1f8de11060cf568a18e3e1ab670d5.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
+  detection_source: spec/fixtures/Podfile
+  last_updated_by: Dave Powers
+  last_updated_on: 2022-07-12 17:14:23.000000000 Z
+- name: scikit-learn
+  description: Easy-to-use and general-purpose machine learning in Python
+  website_url: http://scikit-learn.org/stable/
+  version: 0.16.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/2657/scikit-learn-logo.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/requirements.txt
+  detection_source: spec/fixtures/requirements.txt
+  last_updated_by: Andrew Nesbitt
+  last_updated_on: 2016-02-28 12:01:34.000000000 Z
+- name: certifi
+  description: Python package for providing Mozilla's CA Bundle
+  package_url: https://pypi.org/project/certifi
+  version: 2021.5.30
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
+  detection_source: spec/fixtures/requirements.txt
+  last_updated_by: Andrew Nesbitt
+  last_updated_on: 2016-02-28 12:01:34.000000000 Z
+  vulnerabilities:
+  - name: Removal of e-Tugra root certificate
+    cve_id: CVE-2023-37920
+    cve_url: https://github.com/advisories/GHSA-xqr8-7jwr-rhp7
+    detected_date: Jul 26
+    severity: high
+    first_patched: 2023.7.22
+  - name: Certifi removing TrustCor root certificate
+    cve_id: CVE-2022-23491
+    cve_url: https://github.com/advisories/GHSA-43fp-rhv2-5gv8
+    detected_date: Dec 8
+    severity: moderate
+    first_patched: 2022.12.07
+- name: django-filter
+  description: Django-filter is a reusable Django application for allowing users to
+    filter querysets dynamically
+  package_url: https://pypi.org/project/django-filter
+  version: '0.11'
   license: BSD-3-Clause
   open_source: true
   hosted_saas: false
   category: Libraries
-  sub_category: Data Science Tools
-  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/environment.yml
-  detection_source: spec/fixtures/environment.yml
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2019-08-08 20:23:54.000000000 Z
-- name: Pinax
-  description: a platform for rapidly developing websites
-  website_url: http://pinaxproject.com/
-  open_source: false
-  hosted_saas: false
-  image_url: https://img.stackshare.io/service/2514/pinaxproject_avatar_normal.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Pipfile
-  detection_source: spec/fixtures/Pipfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2017-02-22 11:30:37.000000000 Z
-- name: Quick
-  description: The Swift (and Objective-C) testing framework.
-  website_url: https://github.com/Quick/Quick
-  open_source: false
-  hosted_saas: false
-  image_url: https://img.stackshare.io/service/8779/8083968.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: SDWebImage
-  description: "CocoaDocs is a hosted Obj-C documentation website. \n\nCreated by
-    @orta &amp; the @CocoaPods team."
-  website_url: http://cocoadocs.org/docsets/SDWebImage/4.1.0/
-  open_source: false
-  hosted_saas: false
-  image_url: https://img.stackshare.io/service/7384/HeO34Gem_normal.jpeg
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Dave Powers
-  last_updated_on: 2022-07-12 17:14:23.000000000 Z
-- name: Shell
-  description: A shell is a text-based terminal, used for manipulating programs and
-    files. Shell scripts typically manage program execution.
-  website_url: https://en.wikipedia.org/wiki/Shell_script
-  open_source: false
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Languages
-  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary
-  detection_source: Repo Metadata
-- name: aeson
-  description: Fast JSON parsing and encoding in Haskell
-  website_url: https://hackage.haskell.org/package/aeson
-  open_source: false
-  hosted_saas: false
-  image_url: https://img.stackshare.io/service/7354/oCgm29k9_normal.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/example.cabal
-  detection_source: spec/fixtures/example.cabal
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2018-01-15 17:34:44.000000000 Z
-- name: pygame
-  description: Open Source python programming language library for making multimedia
-    applications
-  website_url: https://www.pygame.org/news
-  open_source: false
-  hosted_saas: false
-  category: Languages & Frameworks
-  sub_category: Cross-Platform Desktop Development
-  image_url: https://img.stackshare.io/service/6512/default_1e1ae07154b9f359c410f3f24ba3c96c1be21cdf.jpg
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/requirements-git.txt
-  detection_source: spec/fixtures/requirements-git.txt
-  last_updated_by: John Bintz
-  last_updated_on: 2022-05-06 19:23:18.000000000 Z
-- name: setuptools
-  website_url: https://github.com/pypa/setuptools
-  open_source: false
-  hosted_saas: false
-  image_url: https://img.stackshare.io/service/10517/647025.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/environment.yml
-  detection_source: spec/fixtures/environment.yml
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2019-08-08 20:23:54.000000000 Z
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20158/default_31f4acd7a71628261771488a4d0f37f63bff1598.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/setup.py
+  detection_source: spec/fixtures/multimanifest_dir/setup.py
+  last_updated_by: Havoc Pennington
+  last_updated_on: 2018-06-28 20:53:05.000000000 Z
+  vulnerabilities:
+  - name: Potential DoS with NumberFilter conversion to integer values.
+    cve_id: CVE-2020-15225
+    cve_url: https://github.com/advisories/GHSA-x7gm-rfgv-w973
+    detected_date: Jan 7
+    severity: high
+    first_patched: 2.4.0
 - name: Beaker
   description: A Session and Caching library with WSGI Middleware
   package_url: https://pypi.org/project/Beaker
@@ -967,101 +1014,33 @@ tools:
     detected_date: Jul 8
     severity: moderate
     first_patched:
-- name: Flask
-  description: A simple framework for building complex web applications
-  package_url: https://pypi.org/project/Flask
-  version: '0.8'
+- name: djangorestframework
+  description: Web APIs for Django, made easy
+  package_url: https://pypi.org/project/djangorestframework
+  version: 3.2.0
   license: BSD-3-Clause
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19834/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/requirements.txt
-  detection_source: spec/fixtures/requirements.txt
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-12-16 11:14:26.000000000 Z
-- name: black
-  description: The uncompromising code formatter
-  package_url: https://pypi.org/project/black
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: cachetools
-  description: Extensible memoizing collections and decorators
-  package_url: https://pypi.org/project/cachetools
-  version: 4.2.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19950/default_611a1328f69b729fac0a7b8bf87ff04e8ce35e17.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: certifi
-  description: Python package for providing Mozilla's CA Bundle
-  package_url: https://pypi.org/project/certifi
-  version: 2021.5.30
-  license: MPL-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19849/default_75c38a39b9f0062814489e2ec2cbfca0ca15d9ba.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
+  image_url: https://img.stackshare.io/package/19870/default_d05f6f09935776629f62e8aed365805502c14921.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/setup.py
+  detection_source: spec/fixtures/multimanifest_dir/setup.py
+  last_updated_by: Havoc Pennington
+  last_updated_on: 2018-06-28 20:53:05.000000000 Z
   vulnerabilities:
-  - name: Removal of e-Tugra root certificate
-    cve_id: CVE-2023-37920
-    cve_url: https://github.com/advisories/GHSA-xqr8-7jwr-rhp7
-    detected_date: Jul 26
-    severity: high
-    first_patched: 2023.7.22
-  - name: Certifi removing TrustCor root certificate
-    cve_id: CVE-2022-23491
-    cve_url: https://github.com/advisories/GHSA-43fp-rhv2-5gv8
-    detected_date: Dec 8
+  - name: Cross-Site Scripting
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-57h7-r3q3-w57j
+    detected_date: Aug 13
     severity: moderate
-    first_patched: 2022.12.07
-- name: charset-normalizer
-  description: The Real First Universal Charset Detector
-  package_url: https://pypi.org/project/charset-normalizer
-  version: 2.0.6
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/pypi/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: click
-  description: Composable command line interface toolkit
-  package_url: https://pypi.org/project/click
-  version: 8.0.1
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
+    first_patched: 3.9.1
+  - name: Cross-site Scripting (XSS) in Django REST Framework
+    cve_id: CVE-2020-25626
+    cve_url: https://github.com/advisories/GHSA-fx83-3ph3-9j2q
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.11.2
 - name: distribute
   description: Distribute legacy wrapper
   package_url: https://pypi.org/project/distribute
@@ -1104,28 +1083,6 @@ tools:
   detection_source: spec/fixtures/multimanifest_dir/setup.py
   last_updated_by: Havoc Pennington
   last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: django-filter
-  description: Django-filter is a reusable Django application for allowing users to
-    filter querysets dynamically
-  package_url: https://pypi.org/project/django-filter
-  version: '0.11'
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20158/default_31f4acd7a71628261771488a4d0f37f63bff1598.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/setup.py
-  detection_source: spec/fixtures/multimanifest_dir/setup.py
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-  vulnerabilities:
-  - name: Potential DoS with NumberFilter conversion to integer values.
-    cve_id: CVE-2020-15225
-    cve_url: https://github.com/advisories/GHSA-x7gm-rfgv-w973
-    detected_date: Jan 7
-    severity: high
-    first_patched: 2.4.0
 - name: django-taggit
   description: Django-taggit is a reusable Django application for simple tagging
   package_url: https://pypi.org/project/django-taggit
@@ -1140,152 +1097,6 @@ tools:
   detection_source: spec/fixtures/multimanifest_dir/setup.py
   last_updated_by: Havoc Pennington
   last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: djangorestframework
-  description: Web APIs for Django, made easy
-  package_url: https://pypi.org/project/djangorestframework
-  version: 3.2.0
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19870/default_d05f6f09935776629f62e8aed365805502c14921.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/setup.py
-  detection_source: spec/fixtures/multimanifest_dir/setup.py
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-  vulnerabilities:
-  - name: Cross-Site Scripting
-    cve_id:
-    cve_url: https://github.com/advisories/GHSA-57h7-r3q3-w57j
-    detected_date: Aug 13
-    severity: moderate
-    first_patched: 3.9.1
-  - name: Cross-site Scripting (XSS) in Django REST Framework
-    cve_id: CVE-2020-25626
-    cve_url: https://github.com/advisories/GHSA-fx83-3ph3-9j2q
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 3.11.2
-- name: google-api-core
-  description: Google API client core library
-  package_url: https://pypi.org/project/google-api-core
-  version: 2.0.1
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20073/default_d7fc4eabe57370d13c2a8ad2f7f6bb876c96c66d.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: google-auth
-  description: Google Authentication Library
-  package_url: https://pypi.org/project/google-auth
-  version: 2.1.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19955/default_1965f66bb5a4d2eb7b31193d7be6d8a9041d02b9.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: google-cloud-core
-  description: Google Cloud API client core library
-  package_url: https://pypi.org/project/google-cloud-core
-  version: 2.0.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20215/default_91afeaad6f5d17a2b513346f3f744a53cbd8a9ad.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: google-cloud-storage
-  description: Google Cloud Storage API client library
-  package_url: https://pypi.org/project/google-cloud-storage
-  version: 1.42.2
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19996/default_1ae269f6aa26d7008f18ed620309f6ae89bbfa12.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: google-resumable-media
-  description: Utilities for Google Media Downloads and Resumable Uploads
-  package_url: https://pypi.org/project/google-resumable-media
-  version: 2.0.3
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/pypi/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: googleapis-common-protos
-  description: Common protobufs used in Google APIs
-  package_url: https://pypi.org/project/googleapis-common-protos
-  version: 1.53.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20036/default_a7a70921d2d3189665c78015850dc968f41705a1.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: gunicorn
-  description: WSGI HTTP Server for UNIX
-  package_url: https://pypi.org/project/gunicorn
-  version: 0.14.2
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19931/default_74a0c20721d3a0a1484d69586401591fe8993db2.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/requirements.txt
-  detection_source: spec/fixtures/requirements.txt
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-  vulnerabilities:
-  - name: Gunicorn contains Improper Neutralization of CRLF sequences in HTTP headers
-    cve_id: CVE-2018-1000164
-    cve_url: https://github.com/advisories/GHSA-32pc-xphx-q4f6
-    detected_date: Aug 22
-    severity: high
-    first_patched: 19.5.0
-- name: idna
-  description: Internationalized Domain Names in Applications
-  package_url: https://pypi.org/project/idna
-  version: '3.2'
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19863/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
 - name: ijson
   description: Iterative JSON parser with a standard Python iterator interface
   package_url: https://pypi.org/project/ijson
@@ -1300,44 +1111,6 @@ tools:
   detection_source: spec/fixtures/multimanifest_dir/setup.py
   last_updated_by: Havoc Pennington
   last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: invoke
-  description: Pythonic task execution
-  package_url: https://pypi.org/project/invoke
-  version: 1.6.0
-  license: BSD-2-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20170/default_61c5587692a15177a925ec9469e353b56dcc7b6a.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: langchain
-  description: Building applications with LLMs through composability
-  package_url: https://pypi.org/project/langchain
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/pypi/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pyproject.toml
-  detection_source: spec/fixtures/pyproject.toml
-  last_updated_by: Akash
-  last_updated_on: 2023-12-07 16:49:56.000000000 Z
-- name: langchain-core
-  description: Building applications with LLMs through composability
-  package_url: https://pypi.org/project/langchain-core
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/pypi/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pyproject.toml
-  detection_source: spec/fixtures/pyproject.toml
-  last_updated_by: Akash
-  last_updated_on: 2023-12-07 16:49:56.000000000 Z
 - name: lesscpy
   description: Python LESS compiler
   package_url: https://pypi.org/project/lesscpy
@@ -1365,90 +1138,6 @@ tools:
   detection_source: spec/fixtures/Pipfile
   last_updated_by: Andrew Nesbitt
   last_updated_on: 2017-02-22 11:30:37.000000000 Z
-- name: pathspec
-  description: Utility library for gitignore style pattern matching of file paths
-  package_url: https://pypi.org/project/pathspec
-  version: 0.9.0
-  license: MPL-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20261/default_24e344cf78482d8a66297ae9ebea86f00b570483.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: pep517
-  description: Wrappers to build Python packages using PEP 517 hooks
-  package_url: https://pypi.org/project/pep517
-  version: 0.11.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/pypi/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: pip-tools
-  description: Pip-tools keeps your pinned dependencies fresh
-  package_url: https://pypi.org/project/pip-tools
-  version: 6.2.0
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20726/default_ce4a377c6ada3db6767eb3c966642d2537ef1d8e.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: prompt-toolkit
-  description: Library for building powerful interactive command lines in Python
-  package_url: https://pypi.org/project/prompt-toolkit
-  version: 3.0.20
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20821/default_807bb6c1af3ee7076c92bf3b4deb3e13b204d369.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: pyasn1
-  description: ASN.1 types and codecs
-  package_url: https://pypi.org/project/pyasn1
-  version: 0.4.8
-  license: BSD-2-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19915/default_37434feaacace26053e41d6e4802560af16ebe44.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: pyasn1-modules
-  description: A collection of ASN.1-based protocols modules
-  package_url: https://pypi.org/project/pyasn1-modules
-  version: 0.2.8
-  license: BSD-2-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20090/default_36085c16346155862c5c1303e8a0a70416453533.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
 - name: python-dateutil
   description: Extensions to the standard Python datetime module
   package_url: https://pypi.org/project/python-dateutil
@@ -1477,103 +1166,6 @@ tools:
   detection_source: spec/fixtures/multimanifest_dir/setup.py
   last_updated_by: Havoc Pennington
   last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: questionary
-  description: Python library to build pretty command line user prompts ⭐️
-  package_url: https://pypi.org/project/questionary
-  version: 1.10.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/pypi/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: requests
-  description: Python HTTP for Humans
-  package_url: https://pypi.org/project/requests
-  version: 2.13.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Pipfile.lock
-  detection_source: spec/fixtures/Pipfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2017-02-22 11:30:37.000000000 Z
-  vulnerabilities:
-  - name: Insufficiently Protected Credentials in Requests
-    cve_id: CVE-2018-18074
-    cve_url: https://github.com/advisories/GHSA-x84v-xcm2-53pg
-    detected_date: Aug 22
-    severity: high
-    first_patched: 2.20.0
-  - name: Unintended leak of Proxy-Authorization header in requests
-    cve_id: CVE-2023-32681
-    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
-    detected_date: May 23
-    severity: moderate
-    first_patched: 2.31.0
-- name: rsa
-  description: Pure-Python RSA implementation
-  package_url: https://pypi.org/project/rsa
-  version: 4.7.2
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/20021/default_faea030602e3d71554c57e6fc53190ac830da00d.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: scikit-learn
-  description: A set of python modules for machine learning and data mining
-  package_url: https://pypi.org/project/scikit-learn
-  version: 0.16.1
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19898/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/requirements.txt
-  detection_source: spec/fixtures/requirements.txt
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: six
-  description: Python 2 and 3 compatibility utilities
-  package_url: https://pypi.org/project/six
-  version: 1.16.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-- name: typing-extensions
-  description: Backported and Experimental Type Hints for Python 3.5+
-  package_url: https://pypi.org/project/typing-extensions
-  version: 3.10.0
-  license: Python-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19875/default_2270bfab784e3d2c2d999d26b11ee478a9dad238.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
 - name: unicodecsv
   description: Python2's stdlib csv module is nice, but it doesn't support unicode
   package_url: https://pypi.org/project/unicodecsv
@@ -1588,55 +1180,6 @@ tools:
   detection_source: spec/fixtures/multimanifest_dir/setup.py
   last_updated_by: Havoc Pennington
   last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: urllib3
-  description: HTTP library with thread-safe connection pooling
-  package_url: https://pypi.org/project/urllib3
-  version: 1.26.6
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-  vulnerabilities:
-  - name: urllib3's request body not stripped after redirect from 303 status changes
-      request method to GET
-    cve_id: CVE-2023-45803
-    cve_url: https://github.com/advisories/GHSA-g4mx-q9vg-27p4
-    detected_date: Oct 18
-    severity: moderate
-    first_patched: 1.26.18
-  - name: "`Cookie` HTTP header isn't stripped on cross-origin redirects"
-    cve_id: CVE-2023-43804
-    cve_url: https://github.com/advisories/GHSA-v845-jxx5-vc9f
-    detected_date: Oct 3
-    severity: moderate
-    first_patched: 1.26.17
-- name: wheel
-  description: A built-package format for Python
-  package_url: https://pypi.org/project/wheel
-  version: 0.37.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: PyPI Packages
-  image_url: https://img.stackshare.io/package/19889/default_7182952cb92ae36151a754e2592ac68e6e6340df.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pip-compile/requirements.txt
-  detection_source: spec/fixtures/pip-compile/requirements.txt
-  last_updated_by: Tyrel Souza
-  last_updated_on: 2021-09-23 15:19:32.000000000 Z
-  vulnerabilities:
-  - name: pypa/wheel vulnerable to Regular Expression denial of service (ReDoS)
-    cve_id: CVE-2022-40898
-    cve_url: https://github.com/advisories/GHSA-qwmp-2cf2-g9g6
-    detected_date: Dec 27
-    severity: high
-    first_patched: 0.38.1
 - name: zope.component
   description: Zope Component Architecture
   package_url: https://pypi.org/project/zope.component
@@ -1651,1899 +1194,6 @@ tools:
   detection_source: spec/fixtures/requirements.txt
   last_updated_by: Andrew Nesbitt
   last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: com.google.guava:guava
-  description: Guava is a suite of core and expanded libraries that include utility
-    classes
-  version: '23.5'
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/gradle-dependencies-q.txt
-  detection_source: spec/fixtures/build.gradle
-  last_updated_by: Tieg Zaharia
-  last_updated_on: 2022-05-18 19:42:22.000000000 Z
-  vulnerabilities:
-  - name: Guava vulnerable to insecure use of temporary directory
-    cve_id: CVE-2023-2976
-    cve_url: https://github.com/advisories/GHSA-7g45-4rm6-3mm3
-    detected_date: Jun 15
-    severity: moderate
-    first_patched: 32.0.0-android
-  - name: Denial of Service in Google Guava
-    cve_id: CVE-2018-10237
-    cve_url: https://github.com/advisories/GHSA-mvr2-9pj6-7w5j
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 24.1.1-android
-  - name: Information Disclosure in Guava
-    cve_id: CVE-2020-8908
-    cve_url: https://github.com/advisories/GHSA-5mg8-w23w-74h3
-    detected_date: Aug 22
-    severity: low
-    first_patched: 32.0.0-android
-- name: com.google.inject:guice
-  description: Guice is a lightweight dependency injection framework for Java 6 and
-    above
-  version: '3.0'
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: com.googlecode.java-diff-utils:diffutils
-  description: The DiffUtils library for computing diffs
-  version: 1.3.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/gradle-dependencies-q.txt
-  detection_source: spec/fixtures/ivy.xml
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: com.googlecode.protobuf-java-format:protobuf-java-format
-  description: Provide serialization and de-serialization of different formats based
-    on Google’s protobuf Message
-  version: '1.2'
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: com.mchange:c3p0
-  description: A JDBC Connection pooling / Statement caching library
-  version: 0.9.2
-  license: LGPL-2.1+,EPL-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-  vulnerabilities:
-  - name: XML External Entity Reference in mchange:c3p0
-    cve_id: CVE-2018-20433
-    cve_url: https://github.com/advisories/GHSA-q485-j897-qc27
-    detected_date: Aug 22
-    severity: critical
-    first_patched: 0.9.5.3
-  - name: Billion laughs attack in c3p0
-    cve_id: CVE-2019-5427
-    cve_url: https://github.com/advisories/GHSA-84p2-vf58-xhxv
-    detected_date: Aug 22
-    severity: high
-    first_patched: 0.9.5.4
-- name: com.squareup.okhttp:okhttp
-  description: An HTTP client for Android, Kotlin, and Java
-  version: 2.1.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/build.gradle
-  detection_source: spec/fixtures/build.gradle
-  last_updated_by: Tieg Zaharia
-  last_updated_on: 2022-05-18 19:42:22.000000000 Z
-- name: com.squareup.okhttp:okhttp-urlconnection
-  description: An HTTP client for Android, Kotlin, and Java
-  version: 2.1.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/build.gradle
-  detection_source: spec/fixtures/build.gradle
-  last_updated_by: Tieg Zaharia
-  last_updated_on: 2022-05-18 19:42:22.000000000 Z
-- name: com.squareup.picasso:picasso
-  description: A powerful image downloading and caching library for Android
-  version: 2.4.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/build.gradle
-  detection_source: spec/fixtures/build.gradle
-  last_updated_by: Tieg Zaharia
-  last_updated_on: 2022-05-18 19:42:22.000000000 Z
-- name: com.typesafe:config
-  description: Configuration library for JVM languages using HOCON files
-  version: 1.2.1
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: commons-collections:commons-collections
-  description: Types that extend and augment the Java Collections Framework
-  version: 3.2.2
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/gradle-dependencies-q.txt
-  detection_source: spec/fixtures/ivy.xml
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: commons-io:commons-io
-  description: The Apache Commons IO library contains utility classes
-  version: '2.6'
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/gradle-dependencies-q.txt
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-  vulnerabilities:
-  - name: Path Traversal and Improper Input Validation in Apache Commons IO
-    cve_id: CVE-2021-29425
-    cve_url: https://github.com/advisories/GHSA-gwrp-pvrq-jmwv
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: '2.7'
-- name: commons-lang:commons-lang
-  description: Commons Lang
-  version: '2.6'
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/gradle-dependencies-q.txt
-  detection_source: spec/fixtures/ivy.xml
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: de.greenrobot:eventbus
-  description: EventBus is an Android optimized publish/subscribe event bus
-  version: 2.4.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/build.gradle
-  detection_source: spec/fixtures/build.gradle
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-07-10 16:35:30.000000000 Z
-- name: io.dropwizard.metrics:metrics-annotation
-  description: A dependency-less package of just the annotations used by other Metrics
-    modules
-  version: 3.1.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: io.dropwizard.metrics:metrics-core
-  description: Metrics is a Java library which gives you unparalleled insight into
-    what your code does in production
-  version: 3.1.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: junit:junit
-  description: JUnit is a unit testing framework for Java
-  version: '4.12'
-  license: EPL-1.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/gradle-dependencies-q.txt
-  detection_source: spec/fixtures/ivy.xml
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-  vulnerabilities:
-  - name: TemporaryFolder on unix-like systems does not limit access to created files
-    cve_id: CVE-2020-15250
-    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 4.13.1
-- name: mysql:mysql-connector-java
-  description: MySQL JDBC Type 4 driver
-  version: 5.1.9
-  license: GPL-3.0-only
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-  vulnerabilities:
-  - name: Improper Privilege Management in MySQL Connectors Java
-    cve_id: CVE-2018-3258
-    cve_url: https://github.com/advisories/GHSA-4vrv-ch96-6h42
-    detected_date: Jun 29
-    severity: high
-    first_patched: 8.0.13
-  - name: Improper Access Control in MySQL Connectors Java
-    cve_id: CVE-2017-3523
-    cve_url: https://github.com/advisories/GHSA-2xxh-f8r3-hvvr
-    detected_date: Jul 2
-    severity: high
-    first_patched: 5.1.41
-  - name: Privilege escalation in mysql-connector-jav
-    cve_id: CVE-2019-2692
-    cve_url: https://github.com/advisories/GHSA-jcq3-cprp-m333
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 8.0.16
-  - name: Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL
-      Connectors Java
-    cve_id: CVE-2017-3586
-    cve_url: https://github.com/advisories/GHSA-pwh7-92h3-mqr6
-    detected_date: Jul 2
-    severity: moderate
-    first_patched: 5.1.42
-  - name: Improper Access Control in MySQL Connectors Java
-    cve_id: CVE-2015-2575
-    cve_url: https://github.com/advisories/GHSA-gc43-g62c-99g2
-    detected_date: Jul 7
-    severity: moderate
-    first_patched: 5.1.35
-  - name: Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors
-      Java
-    cve_id: CVE-2022-21363
-    cve_url: https://github.com/advisories/GHSA-g76j-4cxx-23h9
-    detected_date: Jun 21
-    severity: moderate
-    first_patched: 8.0.28
-  - name: Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL
-      Connectors Java
-    cve_id: CVE-2017-3589
-    cve_url: https://github.com/advisories/GHSA-cjcf-wm2p-59h5
-    detected_date: Jul 2
-    severity: low
-    first_patched: 5.1.42
-- name: net.javacrumbs.json-unit:json-unit
-  description: Contains basic assertJsonEquals
-  version: 1.1.6
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/ivy.xml
-  detection_source: spec/fixtures/ivy.xml
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: net.spy:spymemcached
-  description: A client library for memcached
-  version: 2.11.7
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: org.apache.commons:commons-exec
-  description: Apache Commons Exec is a library to reliably execute external processes
-    from within the JVM
-  version: '1.3'
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: org.apache.velocity:velocity
-  description: Apache Velocity is a general purpose template engine
-  version: '1.7'
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/ivy.xml
-  detection_source: spec/fixtures/ivy.xml
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-  vulnerabilities:
-  - name: Sandbox Bypass in Apache Velocity Engine
-    cve_id: CVE-2020-13936
-    cve_url: https://github.com/advisories/GHSA-59j4-wjwp-mw9m
-    detected_date: Jan 28
-    severity: high
-    first_patched:
-- name: org.freemarker:freemarker
-  description: FreeMarker is a "template engine"; a generic tool to generate text
-    output based on templates
-  version: 2.3.21
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: org.glassfish.jersey.containers:jersey-container-jetty-http
-  description: Jetty Http Container
-  version: '2.16'
-  license: NetCDF
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: org.glassfish.jersey.containers:jersey-container-servlet
-  description: Jersey core Servlet 3.x implementation
-  version: '2.16'
-  license: NetCDF
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: org.glassfish.jersey.containers:jersey-container-servlet-core
-  description: Jersey core Servlet 2.x implementation
-  version: '2.16'
-  license: NetCDF
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: org.glassfish.jersey.core:jersey-client
-  description: Jersey core client implementation
-  version: '2.16'
-  license: NetCDF
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: org.glassfish.jersey.core:jersey-common
-  description: Jersey core common packages
-  version: '2.16'
-  license: NetCDF
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: org.glassfish.jersey.core:jersey-server
-  description: Jersey core server implementation
-  version: '2.16'
-  license: NetCDF
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: org.glassfish.jersey.media:jersey-media-moxy
-  description: Jersey JSON entity providers support module based on EclipseLink MOXy
-  version: '2.16'
-  license: NetCDF
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: org.glassfish.jersey.media:jersey-media-multipart
-  description: Jersey Multipart entity providers support module
-  version: '2.16'
-  license: NetCDF
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: org.hamcrest:hamcrest-all
-  description: A self-contained hamcrest jar containing all of the sub-modules in
-    a single artifact
-  version: '1.3'
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/ivy.xml
-  detection_source: spec/fixtures/ivy.xml
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: org.htmlparser:htmlparser
-  description: HTML Parser is the high level syntactical analyzer
-  version: '2.1'
-  license: LGPL-2.1+
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/ivy.xml
-  detection_source: spec/fixtures/ivy.xml
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: org.jasypt:jasypt
-  description: Java library which enables encryption in java apps with minimum effort
-  version: 1.9.2
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: org.json:json
-  description: JSON is a light-weight, language independent, data interchange format
-  license: JSON
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/ivy.xml
-  detection_source: spec/fixtures/ivy.xml
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: org.mockito:mockito-all
-  description: Mock objects library for java
-  version: 1.8.4
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: org.mockito:mockito-core
-  description: Mockito mock objects library core API and implementation
-  version: 2.21.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/gradle-dependencies-q.txt
-  detection_source: spec/fixtures/ivy.xml
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: org.springframework:spring-jdbc
-  description: Spring JDBC
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: org.testng:testng
-  description: Testing framework for Java
-  version: 6.8.7
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: redis.clients:jedis
-  description: Jedis is a blazingly small and sane Redis java client
-  version: 2.6.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Maven Packages
-  image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
-  detection_source: spec/fixtures/multimanifest_dir/pom.xml
-  last_updated_by: Havoc Pennington
-  last_updated_on: 2018-06-28 20:53:05.000000000 Z
-- name: Hmisc
-  description: Harrell Miscellaneous
-  package_url: https://cran.r-project.org/Hmisc
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: MASS
-  description: Support Functions and Datasets for Venables and Ripley's MASS
-  package_url: https://cran.r-project.org/MASS
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: covr
-  description: Test Coverage for Packages
-  package_url: https://cran.r-project.org/covr
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: digest
-  description: Create Compact Hash Digests of R Objects
-  package_url: https://cran.r-project.org/digest
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: ggplot2movies
-  description: Movies Data
-  package_url: https://cran.r-project.org/ggplot2movies
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: gtable
-  description: Arrange 'Grobs' in Tables
-  package_url: https://cran.r-project.org/gtable
-  version: 0.1.1
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: hexbin
-  description: Hexagonal Binning Routines
-  package_url: https://cran.r-project.org/hexbin
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: knitr
-  description: A General-Purpose Package for Dynamic Report Generation in R
-  package_url: https://cran.r-project.org/knitr
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: lattice
-  description: Trellis Graphics for R
-  package_url: https://cran.r-project.org/lattice
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: mapproj
-  description: Map Projections
-  package_url: https://cran.r-project.org/mapproj
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: maps
-  description: Draw Geographical Maps
-  package_url: https://cran.r-project.org/maps
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: maptools
-  description: Tools for Handling Spatial Objects
-  package_url: https://cran.r-project.org/maptools
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: mgcv
-  description: |-
-    Mixed GAM Computation Vehicle with Automatic Smoothness
-    Estimation
-  package_url: https://cran.r-project.org/mgcv
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: multcomp
-  description: Simultaneous Inference in General Parametric Models
-  package_url: https://cran.r-project.org/multcomp
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: nlme
-  description: Linear and Nonlinear Mixed Effects Models
-  package_url: https://cran.r-project.org/nlme
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: plyr
-  description: Tools for Splitting, Applying and Combining Data
-  package_url: https://cran.r-project.org/plyr
-  version: 1.7.1
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: quantreg
-  description: Quantile Regression
-  package_url: https://cran.r-project.org/quantreg
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: reshape2
-  description: 'Flexibly Reshape Data: A Reboot of the Reshape Package'
-  package_url: https://cran.r-project.org/reshape2
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: rmarkdown
-  description: Dynamic Documents for R
-  package_url: https://cran.r-project.org/rmarkdown
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: rpart
-  description: Recursive Partitioning and Regression Trees
-  package_url: https://cran.r-project.org/rpart
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: scales
-  description: Scale Functions for Visualization
-  package_url: https://cran.r-project.org/scales
-  version: 0.3.0
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: sp
-  description: Classes and Methods for Spatial Data
-  package_url: https://cran.r-project.org/sp
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: svglite
-  description: An 'SVG' Graphics Device
-  package_url: https://cran.r-project.org/svglite
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: testthat
-  description: Unit Testing for R
-  package_url: https://cran.r-project.org/testthat
-  version: 0.11.0
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/cran/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/DESCRIPTION
-  detection_source: spec/fixtures/DESCRIPTION
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-04-28 17:27:57.000000000 Z
-- name: bcrypt
-  description: Bcrypt
-  package_url: https://rubygems.org/bcrypt
-  version: '3.0'
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19054/default_2be036aaca5c71baf790e00f1ef80dd37a625905.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/devise.gemspec
-  detection_source: spec/fixtures/devise.gemspec
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: codeclimate-test-reporter
-  description: Collects test coverage data from your Ruby test suite and sends it
-    to Code Climate's hosted, automated code review service
-  package_url: https://rubygems.org/codeclimate-test-reporter
-  version: 1.0.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18852/default_b87d202e13d56f87c63181fa49bc5e099c9abaac.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/Gemfile
-  detection_source: Gemfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2017-02-16 16:24:27.000000000 Z
-- name: leveldb-ruby
-  description: LevelDB-Ruby is a Ruby binding to LevelDB
-  package_url: https://rubygems.org/leveldb-ruby
-  version: '0.15'
-  license: BSD-3-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Gemfile
-  detection_source: spec/fixtures/Gemfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: oj
-  description: The fastest JSON parser and object serializer
-  package_url: https://rubygems.org/oj
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18910/default_b76f924b2976860f8be50e4adb06ebfdc8ab90ac.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Gemfile
-  detection_source: spec/fixtures/Gemfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: orm_adapter
-  description: Provides a single point of entry for using basic features of ruby ORMs
-  package_url: https://rubygems.org/orm_adapter
-  version: '0.1'
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19425/default_d8d9e269f3470c79700fe31e57a14ccc1424ff5a.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/devise.gemspec
-  detection_source: spec/fixtures/devise.gemspec
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: ox
-  description: A fast XML parser and object serializer that uses only standard C lib
-  package_url: https://rubygems.org/ox
-  version: 2.8.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19163/default_f74adb1c8d95c3268ea94f5ba9bbb60a0bc900ed.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/bibliothecary.gemspec
-  detection_source: bibliothecary.gemspec
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-01-13 22:08:11.000000000 Z
-  vulnerabilities:
-  - name: Ox gem stack overflow in sax_parse
-    cve_id: CVE-2017-16229
-    cve_url: https://github.com/advisories/GHSA-wfwm-chj7-w59r
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 2.8.2
-- name: pry
-  description: An IRB alternative and runtime developer console
-  package_url: https://rubygems.org/pry
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18815/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/bibliothecary.gemspec
-  detection_source: bibliothecary.gemspec
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-01-13 22:08:11.000000000 Z
-- name: rails_12factor
-  description: Run Rails the 12factor way
-  package_url: https://rubygems.org/rails_12factor
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Gemfile
-  detection_source: spec/fixtures/Gemfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: railties
-  description: 'Rails internals: application bootup'
-  package_url: https://rubygems.org/railties
-  version: 3.2.6
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18847/default_49e8e438a279d3b7963273823890f9482ce83fb4.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/devise.gemspec
-  detection_source: spec/fixtures/devise.gemspec
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: rake
-  description: Rake is a Make-like program implemented in Ruby
-  package_url: https://rubygems.org/rake
-  version: '12.0'
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/bibliothecary.gemspec
-  detection_source: bibliothecary.gemspec
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2017-02-16 15:02:41.000000000 Z
-  vulnerabilities:
-  - name: OS Command Injection in Rake
-    cve_id: CVE-2020-8130
-    cve_url: https://github.com/advisories/GHSA-jppv-gw3r-w3q8
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 12.3.3
-- name: responders
-  description: A set of Rails responders to dry up your application
-  package_url: https://rubygems.org/responders
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19109/default_c404399f249c45bc71a2c704a4b9bc234dcaac3e.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/devise.gemspec
-  detection_source: spec/fixtures/devise.gemspec
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: rubocop-rails
-  description: Automatic Rails code style checking tool
-  package_url: https://rubygems.org/rubocop-rails
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19270/default_67289672b0f514dd92f3c786eb2cf0a39b0db10f.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/bibliothecary.gemspec
-  detection_source: bibliothecary.gemspec
-  last_updated_by: Dave Powers
-  last_updated_on: 2022-07-12 17:14:23.000000000 Z
-- name: simplecov
-  description: Code coverage for Ruby 1.9+ with a powerful configuration library and
-    automatic merging of coverage across test suites
-  package_url: https://rubygems.org/simplecov
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18819/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/Gemfile
-  detection_source: Gemfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2017-02-16 16:24:27.000000000 Z
-- name: spring
-  description: Preloads your application so things like console
-  package_url: https://rubygems.org/spring
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19382/default_b8d34ca81aebc76c0b551b666a1d21df7e697544.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Gemfile
-  detection_source: spec/fixtures/Gemfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: thin
-  description: A thin and fast web server
-  package_url: https://rubygems.org/thin
-  license: GPL-2.0+,Ruby
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18900/default_f0ad2b1ffbe10fdd866f9f8e5f812599d9e8085b.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Gemfile
-  detection_source: spec/fixtures/Gemfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: thread_safe
-  description: A collection of data structures and utilities to make thread-safe programming
-    in Ruby easier
-  package_url: https://rubygems.org/thread_safe
-  version: '0.1'
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19145/default_ca3a9dc389e902e7ab2213ee1e0adf9727e4c94a.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/devise.gemspec
-  detection_source: spec/fixtures/devise.gemspec
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: tomlrb
-  description: A racc based toml parser
-  package_url: https://rubygems.org/tomlrb
-  version: '2.0'
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/rubygems/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/bibliothecary.gemspec
-  detection_source: bibliothecary.gemspec
-  last_updated_by: jsonperl
-  last_updated_on: 2021-06-17 16:09:20.000000000 Z
-- name: typhoeus
-  description: Like a modern code version of the mythical beast with 100 serpent heads
-  package_url: https://rubygems.org/typhoeus
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18891/default_b7088ec778267614a78a5a472c67252ec1721d10.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/bibliothecary.gemspec
-  detection_source: bibliothecary.gemspec
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-06-26 20:46:26.000000000 Z
-- name: vcr
-  description: Record your test suite's HTTP interactions and replay them during future
-    test runs for fast
-  package_url: https://rubygems.org/vcr
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18842/default_49e8e438a279d3b7963273823890f9482ce83fb4.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/bibliothecary.gemspec
-  detection_source: bibliothecary.gemspec
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-01-13 22:08:11.000000000 Z
-- name: warden
-  description: An authentication library compatible with all Rack-based frameworks
-  package_url: https://rubygems.org/warden
-  version: 1.2.3
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/19223/default_a5189375c12a653724f506ba87c061fbf142989c.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/devise.gemspec
-  detection_source: spec/fixtures/devise.gemspec
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: webmock
-  description: WebMock allows stubbing HTTP requests and setting expectations on HTTP
-    requests
-  package_url: https://rubygems.org/webmock
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: RubyGems Packages
-  image_url: https://img.stackshare.io/package/18824/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/bibliothecary.gemspec
-  detection_source: bibliothecary.gemspec
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2018-05-18 13:59:17.000000000 Z
-- name: Codecs
-  description: Common data encoding algorithms
-  package_url: http://pkg.julialang.org/Codecs
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: Colors
-  description: Color manipulation utilities for Julia
-  package_url: http://pkg.julialang.org/Colors
-  version: 0.3.4
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: Compat
-  description: Compatibility across Julia versions
-  package_url: http://pkg.julialang.org/Compat
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: Compose
-  description: Declarative vector graphics
-  package_url: http://pkg.julialang.org/Compose
-  version: 0.3.11
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: Contour
-  description: Calculating contour curves for 2D scalar fields in Julia
-  package_url: http://pkg.julialang.org/Contour
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: DataFrames
-  description: In-memory tabular data in Julia
-  package_url: http://pkg.julialang.org/DataFrames
-  version: 0.4.2
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: DataStructures
-  description: Julia implementation of Data structures
-  package_url: http://pkg.julialang.org/DataStructures
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: Dates
-  description: Date/DateTime Implementation for the Julia Language; Successor to Datetime.jl
-  package_url: http://pkg.julialang.org/Dates
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: Distributions
-  description: A Julia package for probability distributions and associated functions
-  package_url: http://pkg.julialang.org/Distributions
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: Gadfly
-  description: Crafty statistical graphics for Julia
-  package_url: http://pkg.julialang.org/Gadfly
-  version: '0.7'
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Matt Ellis
-  last_updated_on: 2018-07-12 19:46:55.000000000 Z
-- name: Hexagons
-  description: Useful tools for working with hexagonal grids
-  package_url: http://pkg.julialang.org/Hexagons
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: Homebrew
-  description: OSX Binary dependency provider for Julia
-  package_url: http://pkg.julialang.org/Homebrew
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Matt Ellis
-  last_updated_on: 2018-07-12 19:46:55.000000000 Z
-- name: Iterators
-  description: Common functional iterator patterns
-  package_url: http://pkg.julialang.org/Iterators
-  version: 0.1.5
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: JSON
-  description: JSON parsing and printing
-  package_url: http://pkg.julialang.org/JSON
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: KernelDensity
-  description: Kernel density estimators for Julia
-  package_url: http://pkg.julialang.org/KernelDensity
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: Loess
-  description: Local regression, so smooooth!
-  package_url: http://pkg.julialang.org/Loess
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: Plots
-  description: Powerful convenience for Julia visualizations and data analysis
-  package_url: http://pkg.julialang.org/Plots
-  version: '0.12'
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Matt Ellis
-  last_updated_on: 2018-07-12 19:46:55.000000000 Z
-- name: Showoff
-  description: Nicely format an array of n things for tables and plots
-  package_url: http://pkg.julialang.org/Showoff
-  version: 0.0.3
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: StatsBase
-  description: Basic statistics for Julia
-  package_url: http://pkg.julialang.org/StatsBase
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: WinReg
-  package_url: http://pkg.julialang.org/WinReg
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Matt Ellis
-  last_updated_on: 2018-07-12 19:46:55.000000000 Z
-- name: julia
-  package_url: http://pkg.julialang.org/julia
-  version: '0.3'
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/julia/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/REQUIRE
-  detection_source: spec/fixtures/REQUIRE
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: ARCollectionViewMasonryLayout
-  description: A UICollectionViewLayout subclass for creating masonry / pintrest /
-    flow-like layouts with dynamic widths or heights
-  package_url: https://cocoapods.org/pods/ARCollectionViewMasonryLayout
-  version: 2.0.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Dave Powers
-  last_updated_on: 2022-07-12 17:14:23.000000000 Z
-- name: ARTiledImageView
-  description: Display, pan and deep zoom with tiled images
-  package_url: https://cocoapods.org/pods/ARTiledImageView
-  version: 1.2.0
-  license: ''
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Dave Powers
-  last_updated_on: 2022-07-12 17:14:23.000000000 Z
-- name: CardFlight
-  description: CardFlight's iOS SDK Library
-  package_url: https://cocoapods.org/pods/CardFlight
-  version: 1.9.2
-  license: ''
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: DZNWebViewController
-  description: An iPhone/iPad mini WebKit browser controller
-  package_url: https://cocoapods.org/pods/DZNWebViewController
-  version: '2.0'
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Dave Powers
-  last_updated_on: 2022-07-12 17:14:23.000000000 Z
-- name: ECPhoneNumberFormatter
-  description: NSFormatter subclass for formatting phone numbers
-  package_url: https://cocoapods.org/pods/ECPhoneNumberFormatter
-  version: 0.1.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: FBSnapshotTestCase
-  description: Snapshot view unit tests for iOS
-  package_url: https://cocoapods.org/pods/FBSnapshotTestCase
-  version: 1.8.1
-  license: ''
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: FLKAutoLayout
-  description: UIView category which makes it easy to create layout constraints in
-    code
-  package_url: https://cocoapods.org/pods/FLKAutoLayout
-  version: 0.1.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: Forgeries
-  description: Smart subclasses for testing UIKit code
-  package_url: https://cocoapods.org/pods/Forgeries
-  version: 0.1.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: ISO8601DateFormatter
-  description: A Cocoa NSFormatter subclass to convert dates to and from ISO-8601-formatted
-    strings
-  package_url: https://cocoapods.org/pods/ISO8601DateFormatter
-  version: '0.7'
-  license: ''
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: Nimble-Snapshots
-  description: Nimble matchers for iOSSnapshotTestCase
-  package_url: https://cocoapods.org/pods/Nimble-Snapshots
-  version: 1.0.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: ORStackView
-  description: An Auto Layout based Stack View
-  package_url: https://cocoapods.org/pods/ORStackView
-  version: 2.0.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Dave Powers
-  last_updated_on: 2022-07-12 17:14:23.000000000 Z
-- name: Quick
-  description: The Swift
-  package_url: https://cocoapods.org/pods/Quick
-  version: 0.6.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: Reachability
-  description: ARC and GCD Compatible Reachability Class for iOS and OS X
-  package_url: https://cocoapods.org/pods/Reachability
-  version: 3.1.1
-  license: BSD-2-Clause
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Dave Powers
-  last_updated_on: 2022-07-12 17:14:23.000000000 Z
-- name: SDWebImage
-  description: Asynchronous image downloader with cache support with an UIImageView
-    category
-  package_url: https://cocoapods.org/pods/SDWebImage
-  version: 3.7.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Dave Powers
-  last_updated_on: 2022-07-12 17:14:23.000000000 Z
-- name: SVProgressHUD
-  description: A clean and lightweight progress HUD for your iOS and tvOS app
-  package_url: https://cocoapods.org/pods/SVProgressHUD
-  version: 1.1.3
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: Swift-RAC-Macros
-  description: Replacements for the RAC and RACObserve macros in Swift 2
-  package_url: https://cocoapods.org/pods/Swift-RAC-Macros
-  version: 0.3.4
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Dave Powers
-  last_updated_on: 2022-07-12 17:14:23.000000000 Z
-- name: SwiftyJSON
-  description: SwiftyJSON makes it easy to deal with JSON data in Swift
-  package_url: https://cocoapods.org/pods/SwiftyJSON
-  version: 2.2.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Dave Powers
-  last_updated_on: 2022-07-12 17:14:23.000000000 Z
-- name: UIImageViewAligned
-  description: A UIImageView subclass which allows you to align the image left/right/top/bottom
-  package_url: https://cocoapods.org/pods/UIImageViewAligned
-  version: 0.0.1
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Dave Powers
-  last_updated_on: 2022-07-12 17:14:23.000000000 Z
-- name: XNGMarkdownParser
-  description: A Markdown NSAttributedString parser
-  package_url: https://cocoapods.org/pods/XNGMarkdownParser
-  version: 0.3.0
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: CocoaPods Packages
-  image_url: https://img.stackshare.io/package/cocoapods/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Podfile.lock
-  detection_source: spec/fixtures/Podfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: Cabal
-  description: |-
-    The Haskell Common Architecture for Building Applications and
-    Libraries: a framework defining a common interface for authors to more
-    easily build their Haskell applications in a...
-  package_url: http://hackage.haskell.org/Cabal
-  version: 2.0.1
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/hackage/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/cabal.config
-  detection_source: spec/fixtures/example.cabal
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2018-01-15 17:34:44.000000000 Z
-- name: aeson
-  description: |-
-    A JSON parsing and encoding library optimized for ease of use
-    and high performance.
-
-    To get started
-  package_url: http://hackage.haskell.org/aeson
-  version: 1.1.2
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/hackage/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/cabal.config
-  detection_source: spec/fixtures/example.cabal
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2018-01-15 17:34:44.000000000 Z
-- name: bytestring
-  description: An efficient compact
-  package_url: http://hackage.haskell.org/bytestring
-  version: 0.10.8
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/hackage/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/cabal.config
-  detection_source: spec/fixtures/example.cabal
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2018-01-15 17:34:44.000000000 Z
-- name: envy
-  description: For package use information see the README.md
-  package_url: http://hackage.haskell.org/envy
-  version: 1.3.0
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/hackage/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/cabal.config
-  detection_source: spec/fixtures/example.cabal
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2018-01-15 17:34:44.000000000 Z
-- name: hspec
-  package_url: http://hackage.haskell.org/hspec
-  version: '2.4'
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/hackage/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/example.cabal
-  detection_source: spec/fixtures/example.cabal
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2018-01-15 17:34:44.000000000 Z
-- name: hspec-discover
-  package_url: http://hackage.haskell.org/hspec-discover
-  version: '2.4'
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/hackage/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/example.cabal
-  detection_source: spec/fixtures/example.cabal
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2018-01-15 17:34:44.000000000 Z
-- name: pretty
-  description: |-
-    This package contains a pretty-printing library, a set of API's
-    that provides a way to easily print out text in a consistent
-    format of your choosing
-  package_url: http://hackage.haskell.org/pretty
-  version: 1.1.3
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/hackage/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/cabal.config
-  detection_source: spec/fixtures/example.cabal
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2018-01-15 17:34:44.000000000 Z
-- name: servant-server
-  description: |-
-    A family of combinators for defining webservices APIs and serving them
-
-    You can learn about the basics in the tutorial.
-
-    Here
-    is a runnable example
-  package_url: http://hackage.haskell.org/servant-server
-  version: 0.11.0
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/hackage/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/cabal.config
-  detection_source: spec/fixtures/example.cabal
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2018-01-15 17:34:44.000000000 Z
-- name: text
-  description: An efficient packed, immutable Unicode text type
-  package_url: http://hackage.haskell.org/text
-  version: 1.2.3
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/hackage/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/cabal.config
-  detection_source: spec/fixtures/example.cabal
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2018-01-15 17:34:44.000000000 Z
-- name: utf8-string
-  description: A UTF8 layer for Strings
-  package_url: http://hackage.haskell.org/utf8-string
-  version: 1.0.1
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/hackage/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/cabal.config
-  detection_source: spec/fixtures/example.cabal
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2018-01-15 17:34:44.000000000 Z
-- name: warp
-  description: HTTP/1.0
-  package_url: http://hackage.haskell.org/warp
-  version: 3.2.13
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/hackage/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/cabal.config
-  detection_source: spec/fixtures/example.cabal
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2018-01-15 17:34:44.000000000 Z
 - name: DotNetZip
   description: A fork of the DotNetZip project without signing with a solution that
     compiles cleanly
@@ -3628,6 +1278,20 @@ tools:
   detection_source: spec/fixtures/packages.config
   last_updated_by: Andrew Nesbitt
   last_updated_on: 2016-02-28 12:01:34.000000000 Z
+- name: Ninject
+  description: Ninject is a lightning-fast
+  package_url: https://www.nuget.org/Ninject
+  version: 3.0.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12951/default_d871263d8798790404638a4d3692cc70b6389166.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/packages.config
+  detection_source: spec/fixtures/packages.config
+  last_updated_by: Andrew Nesbitt
+  last_updated_on: 2016-02-28 12:01:34.000000000 Z
 - name: Ninject.Web.Common
   description: Bootstrapper for web projects
   package_url: https://www.nuget.org/Ninject.Web.Common
@@ -3656,244 +1320,232 @@ tools:
   detection_source: spec/fixtures/example.csproj
   last_updated_by: Dave Powers
   last_updated_on: 2022-07-14 11:50:11.000000000 Z
-- name: Mantle/Mantle
-  description: Model framework for Cocoa and Cocoa Touch
-  package_url: https://github.com/Carthage/Mantle/Mantle
-  version: '1.0'
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/carthage/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Cartfile
-  detection_source: spec/fixtures/Cartfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: Quick/Nimble
-  description: A Matcher Framework for Swift and Objective-C
-  package_url: https://github.com/Carthage/Quick/Nimble
-  version: 3.1.0
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/carthage/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Cartfile.resolved
-  detection_source: spec/fixtures/Cartfile.private
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: Quick/Quick
-  description: The Swift
-  package_url: https://github.com/Carthage/Quick/Quick
-  version: 0.9.1
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/carthage/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Cartfile.resolved
-  detection_source: spec/fixtures/Cartfile.private
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: ReactiveCocoa/ReactiveCocoa
-  description: Cocoa framework and Obj-C dynamism bindings for ReactiveSwift
-  package_url: https://github.com/Carthage/ReactiveCocoa/ReactiveCocoa
-  version: 4.0.1
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/carthage/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Cartfile.resolved
-  detection_source: spec/fixtures/Cartfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: jspahrsummers/libextobjc
-  description: A Cocoa library to extend the Objective-C programming language
-  package_url: https://github.com/Carthage/jspahrsummers/libextobjc
-  version: 0.4.1
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/carthage/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Cartfile
-  detection_source: spec/fixtures/Cartfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: jspahrsummers/xcconfigs
-  description: Common Xcode configuration files/settings
-  package_url: https://github.com/Carthage/jspahrsummers/xcconfigs
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/carthage/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Cartfile
-  detection_source: spec/fixtures/Cartfile
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: analyzer
-  description: This package provides a library that performs static analysis of Dart
-    code
-  package_url: https://pub.dartlang.org/analyzer
-  version: 0.24.6
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pubspec.lock
-  detection_source: spec/fixtures/pubspec.yaml
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: args
-  description: Library for defining parsers for parsing raw command-line arguments
-    into a set of options and values using GNU and POSIX style options
-  package_url: https://pub.dartlang.org/args
-  version: 0.12.2
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pubspec.lock
-  detection_source: spec/fixtures/pubspec.yaml
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: benchmark_harness
-  description: The official Dart project benchmark harness
-  package_url: https://pub.dartlang.org/benchmark_harness
+- name: codeclimate-test-reporter
+  description: Collects test coverage data from your Ruby test suite and sends it
+    to Code Climate's hosted, automated code review service
+  package_url: https://rubygems.org/codeclimate-test-reporter
   version: 1.0.0
-  open_source: false
+  license: MIT
+  open_source: true
   hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pubspec.yaml
-  detection_source: spec/fixtures/pubspec.yaml
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18852/default_b87d202e13d56f87c63181fa49bc5e099c9abaac.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Andrew Nesbitt
+  last_updated_on: 2017-02-16 16:24:27.000000000 Z
+- name: oj
+  description: The fastest JSON parser and object serializer
+  package_url: https://rubygems.org/oj
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18910/default_b76f924b2976860f8be50e4adb06ebfdc8ab90ac.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Gemfile
+  detection_source: spec/fixtures/Gemfile
   last_updated_by: Andrew Nesbitt
   last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: guinness
-  description: A port of the Jasmine testing framework
-  package_url: https://pub.dartlang.org/guinness
-  version: 0.1.9
-  open_source: false
+- name: rubocop-rails
+  description: Automatic Rails code style checking tool
+  package_url: https://rubygems.org/rubocop-rails
+  license: MIT
+  open_source: true
   hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/pub/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/pubspec.yaml
-  detection_source: spec/fixtures/pubspec.yaml
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19270/default_67289672b0f514dd92f3c786eb2cf0a39b0db10f.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/bibliothecary.gemspec
+  detection_source: bibliothecary.gemspec
+  last_updated_by: Dave Powers
+  last_updated_on: 2022-07-12 17:14:23.000000000 Z
+- name: simplecov
+  description: Code coverage for Ruby 1.9+ with a powerful configuration library and
+    automatic merging of coverage across test suites
+  package_url: https://rubygems.org/simplecov
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18819/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Andrew Nesbitt
+  last_updated_on: 2017-02-16 16:24:27.000000000 Z
+- name: spring
+  description: Preloads your application so things like console
+  package_url: https://rubygems.org/spring
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19382/default_b8d34ca81aebc76c0b551b666a1d21df7e697544.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Gemfile
+  detection_source: spec/fixtures/Gemfile
   last_updated_by: Andrew Nesbitt
   last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: cheshire
-  description: JSON and JSON SMILE encoding, fast
-  package_url: https://clojars.org/cheshire
-  version: 5.4.0
-  open_source: false
+- name: thin
+  description: A thin and fast web server
+  package_url: https://rubygems.org/thin
+  license: GPL-2.0+,Ruby
+  open_source: true
   hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/clojars/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/project.clj
-  detection_source: spec/fixtures/project.clj
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18900/default_f0ad2b1ffbe10fdd866f9f8e5f812599d9e8085b.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/Gemfile
+  detection_source: spec/fixtures/Gemfile
   last_updated_by: Andrew Nesbitt
   last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: compojure
-  description: A concise routing library for Ring
-  package_url: https://clojars.org/compojure
-  version: 1.3.2
-  open_source: false
+- name: vcr
+  description: Record your test suite's HTTP interactions and replay them during future
+    test runs for fast
+  package_url: https://rubygems.org/vcr
+  license: MIT
+  open_source: true
   hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/clojars/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/project.clj
-  detection_source: spec/fixtures/project.clj
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18842/default_49e8e438a279d3b7963273823890f9482ce83fb4.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/bibliothecary.gemspec
+  detection_source: bibliothecary.gemspec
   last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: ring/ring-defaults
-  description: Ring middleware that provides sensible defaults
-  package_url: https://clojars.org/ring/ring-defaults
-  version: 0.1.2
-  open_source: false
+  last_updated_on: 2016-01-13 22:08:11.000000000 Z
+- name: webmock
+  description: WebMock allows stubbing HTTP requests and setting expectations on HTTP
+    requests
+  package_url: https://rubygems.org/webmock
+  license: MIT
+  open_source: true
   hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/clojars/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/project.clj
-  detection_source: spec/fixtures/project.clj
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18824/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/bibliothecary.gemspec
+  detection_source: bibliothecary.gemspec
   last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: ring/ring-jetty-adapter
-  description: Ring Jetty adapter
-  package_url: https://clojars.org/ring/ring-jetty-adapter
-  version: 1.2.1
-  open_source: false
+  last_updated_on: 2018-05-18 13:59:17.000000000 Z
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  version: 5.1.9
+  license: GPL-3.0-only
+  open_source: true
   hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/clojars/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/project.clj
-  detection_source: spec/fixtures/project.clj
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: evancz/elm-markdown
-  description: Fast markdown parsing and rendering
-  package_url: http://package.elm-lang.org/evancz/elm-markdown
-  open_source: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/multimanifest_dir/pom.xml
+  detection_source: spec/fixtures/multimanifest_dir/pom.xml
+  last_updated_by: Havoc Pennington
+  last_updated_on: 2018-06-28 20:53:05.000000000 Z
+  vulnerabilities:
+  - name: Improper Access Control in MySQL Connectors Java
+    cve_id: CVE-2017-3523
+    cve_url: https://github.com/advisories/GHSA-2xxh-f8r3-hvvr
+    detected_date: Jul 2
+    severity: high
+    first_patched: 5.1.41
+  - name: Improper Privilege Management in MySQL Connectors Java
+    cve_id: CVE-2018-3258
+    cve_url: https://github.com/advisories/GHSA-4vrv-ch96-6h42
+    detected_date: Jun 29
+    severity: high
+    first_patched: 8.0.13
+  - name: Privilege escalation in mysql-connector-jav
+    cve_id: CVE-2019-2692
+    cve_url: https://github.com/advisories/GHSA-jcq3-cprp-m333
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 8.0.16
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL
+      Connectors Java
+    cve_id: CVE-2017-3586
+    cve_url: https://github.com/advisories/GHSA-pwh7-92h3-mqr6
+    detected_date: Jul 2
+    severity: moderate
+    first_patched: 5.1.42
+  - name: Improper Access Control in MySQL Connectors Java
+    cve_id: CVE-2015-2575
+    cve_url: https://github.com/advisories/GHSA-gc43-g62c-99g2
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: 5.1.35
+  - name: Improper Handling of Insufficient Permissions or Privileges in MySQL Connectors
+      Java
+    cve_id: CVE-2022-21363
+    cve_url: https://github.com/advisories/GHSA-g76j-4cxx-23h9
+    detected_date: Jun 21
+    severity: moderate
+    first_patched: 8.0.28
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in Oracle MySQL
+      Connectors Java
+    cve_id: CVE-2017-3589
+    cve_url: https://github.com/advisories/GHSA-cjcf-wm2p-59h5
+    detected_date: Jul 2
+    severity: low
+    first_patched: 5.1.42
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  version: '23.5'
+  license: Apache-2.0
+  open_source: true
   hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/elm/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/elm-package.json
-  detection_source: spec/fixtures/elm-package.json
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: evancz/local-channel
-  description: Channels that allow modular and self-contained view code
-  package_url: http://package.elm-lang.org/evancz/local-channel
-  open_source: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/gradle-dependencies-q.txt
+  detection_source: spec/fixtures/build.gradle
+  last_updated_by: Tieg Zaharia
+  last_updated_on: 2022-05-18 19:42:22.000000000 Z
+  vulnerabilities:
+  - name: Guava vulnerable to insecure use of temporary directory
+    cve_id: CVE-2023-2976
+    cve_url: https://github.com/advisories/GHSA-7g45-4rm6-3mm3
+    detected_date: Jun 15
+    severity: moderate
+    first_patched: 32.0.0-android
+  - name: Denial of Service in Google Guava
+    cve_id: CVE-2018-10237
+    cve_url: https://github.com/advisories/GHSA-mvr2-9pj6-7w5j
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 24.1.1-android
+  - name: Information Disclosure in Guava
+    cve_id: CVE-2020-8908
+    cve_url: https://github.com/advisories/GHSA-5mg8-w23w-74h3
+    detected_date: Aug 22
+    severity: low
+    first_patched: 32.0.0-android
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: '2.6'
+  license: Apache-2.0
+  open_source: true
   hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/elm/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/elm-package.json
-  detection_source: spec/fixtures/elm-package.json
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: johnpmayer/elm-linear-algebra
-  description: A linear algebra library for fast vector and matrix math
-  package_url: http://package.elm-lang.org/johnpmayer/elm-linear-algebra
-  version: 1.0.1
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/elm/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/elm_dependencies.json
-  detection_source: spec/fixtures/elm_dependencies.json
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: johnpmayer/elm-webgl
-  description: A library for general 3D rendering with WebGL
-  package_url: http://package.elm-lang.org/johnpmayer/elm-webgl
-  version: 0.1.1
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/elm/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/elm_dependencies.json
-  detection_source: spec/fixtures/elm_dependencies.json
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: go-check/check
-  description: Rich testing for the Go language
-  package_url: https://pkg.go.dev/github.com/go-check/check
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/gradle-dependencies-q.txt
+  detection_source: spec/fixtures/multimanifest_dir/pom.xml
+  last_updated_by: Havoc Pennington
+  last_updated_on: 2018-06-28 20:53:05.000000000 Z
+  vulnerabilities:
+  - name: Path Traversal and Improper Input Validation in Apache Commons IO
+    cve_id: CVE-2021-29425
+    cve_url: https://github.com/advisories/GHSA-gwrp-pvrq-jmwv
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: '2.7'
+- name: empty
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/ptypes/empty
   version: 0.0.0
-  license: Other
+  license: BSD-3-Clause
   open_source: true
   hosted_saas: false
   category: Libraries
@@ -3903,124 +1555,6 @@ tools:
   detection_source: spec/fixtures/go.mod
   last_updated_by: Tieg Zaharia
   last_updated_on: 2019-05-05 18:08:02.000000000 Z
-- name: pretty
-  description: Pretty printing for Go values
-  package_url: https://pkg.go.dev/github.com/kr/pretty
-  version: 0.1.0
-  license: MIT
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Go Modules Packages
-  image_url: https://img.stackshare.io/package/go-packages/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/go.sum
-  detection_source: spec/fixtures/go.mod
-  last_updated_by: Tieg Zaharia
-  last_updated_on: 2019-05-05 18:08:02.000000000 Z
-- name: yaml.v2
-  description: YAML support for the Go language
-  package_url: https://pkg.go.dev/gopkg.in/yaml.v2
-  license: LGPL-3.0
-  open_source: true
-  hosted_saas: false
-  category: Libraries
-  sub_category: Go Modules Packages
-  image_url: https://img.stackshare.io/package/go-packages/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/glide.yaml
-  detection_source: spec/fixtures/glide.yaml
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: laravel/framework
-  description: The Laravel Framework
-  package_url: https://packagist.org/laravel/framework
-  version: '5.0'
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/composer.json
-  detection_source: spec/fixtures/composer.json
-  last_updated_by: Tieg Zaharia
-  last_updated_on: 2021-08-30 20:53:34.000000000 Z
-- name: phpspec/phpspec
-  description: Specification-oriented BDD framework for PHP 7.1+
-  package_url: https://packagist.org/phpspec/phpspec
-  version: '2.1'
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/composer.json
-  detection_source: spec/fixtures/composer.json
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: phpunit/phpunit
-  description: The PHP Unit Testing framework
-  package_url: https://packagist.org/phpunit/phpunit
-  version: '4.0'
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/packagist/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/composer.json
-  detection_source: spec/fixtures/composer.json
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: lime
-  description: A foundational Haxe framework for cross-platform development
-  package_url: https://lib.haxe.org/lime
-  version: 2.9.1
-  license: MIT
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/haxelib/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/haxelib.json
-  detection_source: spec/fixtures/haxelib.json
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2017-07-12 21:07:35.000000000 Z
-- name: openfl
-  description: The "Open Flash Library" for fast 2D development
-  package_url: https://lib.haxe.org/openfl
-  version: 3.6.1
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/haxelib/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/haxelib.json
-  detection_source: spec/fixtures/haxelib.json
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2017-07-12 21:07:35.000000000 Z
-- name: libdparse
-  description: Library for lexing and parsing D source code
-  package_url: http://code.dlang.org/libdparse
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/dub/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/dub.json
-  detection_source: spec/fixtures/dub.json
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
-- name: vibe-d
-  description: Event driven web and concurrency framework
-  package_url: http://code.dlang.org/vibe-d
-  version: 0.7.22
-  open_source: false
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Package Managers
-  image_url: https://img.stackshare.io/package/dub/image.png
-  detection_source_url: https://github.com/dabhi99/bibliothecary/blob/main/spec/fixtures/dub.json
-  detection_source: spec/fixtures/dub.json
-  last_updated_by: Andrew Nesbitt
-  last_updated_on: 2016-02-28 12:01:34.000000000 Z
 - name: vue
   description: Vue
   package_url: https://www.npmjs.com/vue
